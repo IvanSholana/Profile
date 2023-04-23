@@ -1,9 +1,11 @@
 $(window).scroll(function() {
-    var position = $('header').offset().top;
+    var position = 0;
     if (window.pageYOffset > position) {
         $("header").addClass("navbar-fixed");
+        console.log("add : " + window.pageYOffset + "position : " + position);
     } else {
         $("header").removeClass("navbar-fixed");
+        console.log("remove : " + window.pageYOffset + "position : " + position);
     }
 });
 

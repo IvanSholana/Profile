@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .navbar-fixed {
-  @apply fixed z-index[9999] backdrop-blur-sm;
+  @apply fixed z-[999] backdrop-blur-sm shadow-md;
 }
 
 body {
