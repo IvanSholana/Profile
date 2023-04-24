@@ -18,11 +18,27 @@
                 <a href="#home" class="font-semibold text-primary text-lg block py-6">Ivan Sholana</a>
             </div>   
             <div class="flex items-center px-4">
-                <button class="block absolute right-4" id="hamburger" name="hamburger" type="button">
-                    <span class="block w-[30px] h-[2px] bg-black my-2 transition origin-top-left  duration-300 ease-in-out"></span>
-                    <span class="block w-[30px] h-[2px] bg-black my-2 transition duration-300 ease-in-out"></span>
-                    <span class="block w-[30px] h-[2px] bg-black my-2 transition origin-top-left duration-300 ease-in-out"></span>
+                <button class="block absolute right-4 lg:hidden" id="hamburger" name="hamburger" type="button">
+                    <span class="block w-[28px] h-[2px] bg-black my-2 transition origin-top-left  duration-300 ease-in-out"></span>
+                    <span class="block w-[28px] h-[2px] bg-black my-2 transition duration-300 ease-in-out"></span>
+                    <span class="block w-[28px] h-[2px] bg-black my-2 transition origin-top-left duration-300 ease-in-out"></span>
                 </button>
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-20 lg:block lg:bg-transparent lg:shadow-none lg:rounded-none lg:max-w-full lg:static">
+                    <ul class="blox space-y-3 lg:space-y-0 lg:flex">
+                        <li class="group">
+                            <a href="#" class="text-base text-black py-2 mx-8 group-hover:text-primary">Beranda</a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="text-base text-black py-2 mx-8 group-hover:text-primary">Tentang Saya</a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="text-base text-black py-2 mx-8 group-hover:text-primary">Portofolio</a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="text-base text-black py-2 mx-8 group-hover:text-primary">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
               </div> 
         </div>
     </div>
@@ -97,6 +113,17 @@
         </div>
     </section>
     <!-- ABOUT SECTION END -->
+    <!-- PORTOFOLIO SECTION START -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container 2xl:px-28">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-primary mb-2 text-lg">Portofolio</h4>
+                <h2 class="text-3xl font-bold mb-4">Project Terbaru</h2>
+                <p class="text-base font-medium text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil porro, iste tenetur placeat odit recusandae laudantium? Quis ducimus dolorem ea!</p>
+            </div>
+        </div>
+    </section>
+    <!-- PORTOFOLIO SECTION END -->
 </body>
 <script src="../dist/js/jquery.js" type="text/javascript"></script> 
   <script src="../dist/js/JQ.js" type="text/javascript"></script>     

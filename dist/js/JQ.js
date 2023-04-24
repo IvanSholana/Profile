@@ -13,4 +13,5 @@ $(window).scroll(function() {
 
 $("#hamburger").click(function() { 
     $(this).toggleClass("hamburger-active");
+    $("#nav-menu").toggle("hidden");
 });
